@@ -1,7 +1,7 @@
 #NEXUS
- begin data;
-	dimensions ntax=60 nchar=5633;
-	format datatype=protein missing=? gap=- interleave;
+begin data;
+dimensions ntax=60 nchar=5633;
+format datatype=protein missing=? gap=-;
 matrix
 P35749 ----------------------------------------------------------------------
 Q13402 ----------------------------------------------------------------------
